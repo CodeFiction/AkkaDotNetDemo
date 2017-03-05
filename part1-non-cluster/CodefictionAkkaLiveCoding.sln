@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actors", "Actors\Actors.csproj", "{8F5811F7-1D29-4489-A4DF-97CFD4A767FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{4836BDB8-4241-4E13-97DA-D7318B100DA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{3329DE09-3E2F-43EA-BADA-1C988310B161}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lighthouse", "Lighthouse\Lighthouse.csproj", "{87BE1ABF-1F59-41AB-A3CB-4B1E7E0B218A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F5811F7-1D29-4489-A4DF-97CFD4A767FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F5811F7-1D29-4489-A4DF-97CFD4A767FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F5811F7-1D29-4489-A4DF-97CFD4A767FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F5811F7-1D29-4489-A4DF-97CFD4A767FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3329DE09-3E2F-43EA-BADA-1C988310B161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3329DE09-3E2F-43EA-BADA-1C988310B161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3329DE09-3E2F-43EA-BADA-1C988310B161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3329DE09-3E2F-43EA-BADA-1C988310B161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87BE1ABF-1F59-41AB-A3CB-4B1E7E0B218A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87BE1ABF-1F59-41AB-A3CB-4B1E7E0B218A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87BE1ABF-1F59-41AB-A3CB-4B1E7E0B218A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87BE1ABF-1F59-41AB-A3CB-4B1E7E0B218A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F5811F7-1D29-4489-A4DF-97CFD4A767FF} = {4836BDB8-4241-4E13-97DA-D7318B100DA5}
+	EndGlobalSection
+EndGlobal
